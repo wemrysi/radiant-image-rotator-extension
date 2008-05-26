@@ -1,0 +1,12 @@
+= Image Rotator
+
+Adds tags that allow you to display a random image from a directory of images
+that changes each time the page is loaded.
+
+The <r:rotator /> tag has two attributes, "type" and "dir."  Type allows you to
+specify an extension to limit and defaults to "jpg."  Dir should be a path
+under the public/images path of your radiant installation that points to the
+directory containing the images you want to display.
+
+To use the rotator, simply supply the <r:rotator dir="" [type=""] /> tag for the
+"src" attribute of an <img /> tag.
